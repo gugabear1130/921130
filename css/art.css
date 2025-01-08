@@ -1,0 +1,24 @@
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+    border-radius: 5px
+}
+.art {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
+}
+.height{
+    grid-row: span 1.5;
+}
+
+.width{
+    grid-column: span 2;
+}
+
+.big{
+    grid-column: span 2;
+    grid-row: span 2;
+}
